@@ -11,7 +11,7 @@ Clone the app into your system
 ### Step 2
 
 Open CMD(Command Prompt) inside the folder of the application and run:
-```py
+```
 pip install -r requirements.txt
 ```
 This command will install all the necessary packages required for the project
@@ -19,7 +19,7 @@ This command will install all the necessary packages required for the project
 ### Step 3
 
 After all the packages are installed, in the terminal, execute the following command:
-```py
+```
 gradio app.py --demo-name myapp
 ```
 
