@@ -12,9 +12,9 @@ def greetMe(articleInput, min_length_of_article, max_length_of_article):
 
     articleToBeSummarized = articleInput
 
-    if len(re.findall(r'\w+', articleToBeSummarized)) < 200:
+    if len(re.findall(r'\w+', articleToBeSummarized)) < 250:
 
-        return "The minimum length of the total article should be of minimum 200 words."
+        return "The length of the total article should be of minimum 250 words."
 
     elif len(re.findall(r'\w+', articleToBeSummarized)) > 750:
 
