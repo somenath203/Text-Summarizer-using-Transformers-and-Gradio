@@ -1,5 +1,2 @@
-fastapi
-pydantic
 transformers
-uvicorn
-pytorch
+gradio
