@@ -1,2 +1,2 @@
-transformers
+transformers[torch]
 gradio
