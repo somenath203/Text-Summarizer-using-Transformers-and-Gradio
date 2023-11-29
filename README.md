@@ -27,4 +27,4 @@ This will start the application. After the application starts, you will get an U
 ```
 http://127.0.0.1:7860
 ```
-Copy the URL and paste in browser to open the application.
+You can use this URL to launch the application in your browser.
