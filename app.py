@@ -32,8 +32,8 @@ myapp = gr.Interface(fn=greetMe,
                      title="Text Summarizer using Transformers",
                      inputs=[
                          gr.Textbox(lines=20, placeholder="enter the original text that is to be summarized", label="Text Input Field", interactive=True),
-                         gr.Slider(10, 30, value=10, step=10, label="Minimum Length of Summarized Article", info="Choose between 10 and 30"),
-                         gr.Slider(120, 150, value=120, step=10, label="Maximum Length of Summarized Article", info="Choose between 120 and 150"),
+                         gr.Slider(10, 30, value=10, step=10, label="Minimum number of words in Summarized Article", info="Choose between 10 and 30"),
+                         gr.Slider(120, 150, value=120, step=10, label="Maximum number of words in Summarized Article", info="Choose between 120 and 150"),
                      ],
                      outputs=gr.Textbox(lines=20, label="Summarized Text Output", show_copy_button=True),
                      allow_flagging='never')
