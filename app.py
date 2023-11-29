@@ -29,7 +29,7 @@ def greetMe(articleInput, min_length_of_article, max_length_of_article):
 
 
 myapp = gr.Interface(fn=greetMe, 
-                     title="Text Summarizer using Transformer",
+                     title="Text Summarizer using Transformers",
                      inputs=[
                          gr.Textbox(lines=20, placeholder="enter the original text that is to be summarized", label="Text Input Field", interactive=True),
                          gr.Slider(10, 30, value=10, step=10, label="Minimum Length of Summarized Article", info="Choose between 10 and 30"),
